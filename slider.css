@@ -1,0 +1,41 @@
+/* :root {
+  --primary: #c98848;
+  --accent: #ff3470;
+  --white: #fff;
+  --black: #000;
+  --neitral-light: #f8f7f6;
+} */
+
+:root {
+  --primary: #812290;
+  --accent: #de66a8;
+  --white: #fff;
+  --black: #1d0728;
+  --neitral-light: #310847;
+}
+
+#slider {
+  /* height: 464px; */
+  width: 100%;
+  height: 464px;
+  transition: all 0.5s;  
+  object-fit: cover;
+}
+
+.fade {
+  opacity: 0;
+}
+
+.buttons-set {
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-244px);
+}
+
+.arrow {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  color: var(--neitral-light);
+  font-size: 40px;
+}

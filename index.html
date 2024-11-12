@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Сайт про Гарний настрій" />
+    <meta name="keywords" content="Латексні кульки,Перламутрові кульки,Фольговані кульки,Композиції з кульок,Кульки з наповненням" />
+    <meta name="author" content="Ірина, din721317@gmail.com" />
+    <title>Holiday Always</title>
+    <link rel="shortcut icon" href="./images/Frame 4.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./validate.css" />
+    <link rel="stylesheet" href="./slider.css" />
+  </head>
+  <body id="top">
+    <div id="hero-section">
+      <nav>
+        <a href="index.html" class="logo"
+          ><img src="./images/Frame 4.png" alt="" />Holiday Always</a
+        >
+        <input type="checkbox" id="menu_toggle" />
+        <label for="menu_toggle" class="menu_btn"><span></span></label>
+        <ul class="menu">
+          <li><a href="#about">Про нас</a></li>
+          <li><a href="#ball">Знайди настрій</a></li>
+          <li><a href="#life">Як здивувати</a></li>
+          <li><a href="#testimonials">Відгуки</a></li>
+          <li><a href="#contacts" class="button">Контакти</a></li>
+        </ul>
+      </nav>
+      <div id="hero">
+        <header>
+          <h1>
+            Ласкаво просимо<br />до створення гарного <br />
+            настрою з <br />Holiday Always
+          </h1>
+          <p class="description">
+            Наша мрія — зробити всіх щасливими <br />
+            по приводу та без
+          </p>
+          <a href="#" class="button"
+            ><div class="logo-img"></div>
+            Знайди настрій</a
+          >
+        </header>
+      </div>
+    </div>
+    <div id="about">
+      <div class="col-4">
+        <h2>Про нас</h2>
+        <p>
+          У Holiday Always ми зробили добірку найрізноманітних повітряних
+          кульок.
+        </p>
+        <p>
+          Без чого важко уявити яскраве свято? Звичайно ж, без повітряних
+          кульок. Сьогодні їх широко застосовують для прикрашання урочистих
+          заходів та як елемент подарунку. Існує думка, що відпустивши повітряну
+          кульку у небо можна попрощатися й з власними переживаннями.
+        </p>
+        <p>
+          Наша місія робити людей щасливими, навіть без свята. Повітряна кулька
+          піднімає настрій як у дітей так і у дорослих.
+        </p>
+      </div>
+      <div class="col-8">
+        <img src="./images/25.jpg" alt="" id="slider" />
+        <div class="buttons-set">
+          <button onclick="prev()" class="arrow">&#129185;</button>
+          <button onclick="next()" class="arrow">&#129184;</button>
+        </div>
+      </div>
+    </div>
+    <div id="ball">
+      <div class="section-heading">
+        <h2>Знайти настрій</h2>
+      </div>
+      <div class="cards">
+        <div class="card-row">
+          <div class="card">
+            <img src="./images/1.jpg" alt="" />
+            <div class="card-info">
+              <h4>Латексні кульки</h4>
+              <div class="card-text">
+                <p><strong>Розмір: </strong>d 10-50 см</p>
+                <p><strong>Ціна: </strong>від 2 до 50 грн.</p>
+              </div>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/2.jpeg" alt="" />
+            <div class="card-info">
+              <h4>Перламутрові кульки</h4>
+              <div class="card-text">
+                <p><strong>Розмір: </strong>d 10-50 см</p>
+                <p><strong>Ціна: </strong>від 100 грн.</p>
+              </div>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/3.webp" alt="" />
+            <div class="card-info">
+              <h4>Фольговані кульки</h4>
+              <div class="card-text">
+                <p><strong>Розмір: </strong>d 50-90 см</p>
+                <p><strong>Ціна: </strong>від 150 до 500 грн.</p>
+              </div>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-row">
+          <div class="card">
+            <img src="./images/4.jpeg" alt="" />
+            <div class="card-info">
+              <h4>Композиції з кульок</h4>
+              <div class="card-text">
+                <p><strong>Розмір: </strong>не обмежений</p>
+                <p><strong>Ціна: </strong>від 1000 грн.</p>
+              </div>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/5.jpg" alt="" />
+            <div class="card-info">
+              <h4>Вінілові кульки</h4>
+              <div class="card-text">
+                <p><strong>Розмір: </strong> d більше 1 метру</p>
+                <p><strong>Ціна: </strong> від 500 грн.</p>
+              </div>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/6.jpg" alt="" />
+            <div class="card-info">
+              <h4>З наповненням</h4>
+              <div class="card-text">
+                <p><strong>Розмір: </strong>d 50-90 см</p>
+                <p><strong>Ціна: </strong>від 300 грн.</p>
+              </div>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="testimonials">
+      <div class="section-heading">
+        <h2>Відгуки</h2>
+      </div>
+      <div class="cards">
+        <div class="card-row">
+          <div class="card">
+            <img src="./images/7.4.png" alt="" />
+            <div class="card-info">
+              <h4>Руслан Чеховський</h4>
+              <p>
+                Мені дуже сподобалось, мені мама подарувала ці кульки, вони дуже
+                краксиві!
+              </p>
+
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/15 (2).png" alt="" />
+            <div class="card-info">
+              <h4>Софія Томашевська</h4>
+              <p>
+                Дякую за гарні емоції. Замовляла композицію з кульок,вона дуже
+                прикрасила наше свято. Все сподобалось.
+              </p>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/16(1).png" alt="" />
+            <div class="card-info">
+              <h4>Максим Васін</h4>
+              <p>
+                Замовляв кульки . Якість гарна, приємне і швидке обслуговування.
+                Рекомендую.
+              </p>
+              <a href="#" class="button">Дізнатися більше</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="life">
+      <div class="section-heading">
+        <h2>Робіть своє життя яскравішим !</h2>
+      </div>
+      <div id="holiday" class="life-frame">
+        <div class="col-6">
+          <h2>Які свята можна прикрасити повітряними кульками?</h2>
+          <p>
+            Повітряні кулі є універсальним елементом декору, який можна
+            використовувати як прикрасу подарунка або інтер'єру, де
+            відбуватиметься святкування.
+          </p>
+          <p>
+            Підключивши фантазію та творчість можна придумати, як комбінувати
+            між собою різні кулі, щоб виготовити з них чудові інсталяції.
+          </p>
+          <p>
+            Прикраса повітряними кулями найкраще підходить для відзначання
+            дитячих свят. Однак це не означає, що захід з дорослими не може бути
+            проведений без яскравого та повітряного декору.
+          </p>
+        </div>
+        <div class="col-6">
+          <img src="./images/11.jpg" alt="" />
+        </div>
+      </div>
+      <div id="function" class="life-frame">
+        <div class="col-6">
+          <img src="./images/12.jpg" alt="" />
+        </div>
+
+        <div class="col-6">
+          <h2>Яку функцію виконують повітряні кулі</h2>
+          <p>
+            Насамперед повітряні кульки необхідні для того, щоб підняти настрій.
+          </p>
+          <p>
+            Вони допоможуть викликати посмішку навіть у найсуворіших на перший
+            вигляд гостей.
+          </p>
+          <p>
+            Це зумовлено як їхньою формою, так і зовнішньою привабливістю та
+            оформленням.
+          </p>
+        </div>
+      </div>
+      <div id="fact" class="life-frame">
+        <div class="col-6">
+          <h2>Цікаві факти</h2>
+          <p>
+            В Україні Всесвітній день повітряної кульки відзначається з
+            розмахом- 2 жовтня.
+          </p>
+          <p>
+            Багато аніматорів та організаторів свят проводять майстер-класи,
+            організовують конкурси і фестивалі.
+          </p>
+          <p>
+            Діти з великим задоволенням беруть участь у таких заходах, створюючи
+            свої перші шедеври з повітряних кульок.
+          </p>
+          <p>Міжнародна назва свята – International Balloon Day.</p>
+          <p>
+            Всесвітній день повітряної кульки – це чудова можливість подарувати
+            собі і оточуючим трохи радості і позитиву.
+          </p>
+          <p>
+            Нехай цей день (і не тільки цей) стане приводом для посмішок, нових
+            вражень і творчих ідей.
+          </p>
+        </div>
+        <div class="col-6">
+          <img src="./images/21.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div id="contacts">
+      <div class="section-heading">
+        <h2>Зв’яжіться з нами</h2>
+      </div>
+      <div id="contacts-content" class="contact-frame">
+        <div class="col-5">
+          <h4>Контакти</h4>
+          <div class="contact-logo-text">
+            <a href="index.html" class="logo"
+              ><img src="./images/Frame 4.png" alt="" />Holiday Always</a
+            >
+            <ul>
+              <li>вул.Діденко Василя, буд.1</li>
+              <li>61039</li>
+              <li>Харків</li>
+              <li>Україна</li>
+              <li><a href="mailto:mail@gmail.com">din721317@gmail.com</a></li>
+              <li><a href="tel:+380123456789">+380 996 576 141</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6">
+          <h4>Написати листа</h4>
+          <form action="./hello.html" method="get">
+            <input
+              type="text"
+              name="name"
+              placeholder="Повне ім'я"
+              pattern="[А-Яа-яA-Za-z ]{3,30}"
+              required
+            />
+            <input type="email" name="surname" placeholder="email" required />
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+            <button type="submit" name="send" class="button">
+              Відправити листа
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="#top" id="up"><img src="./images/up3.png" alt="" /></a>
+      <div class="footer-frame">
+        <div class="col-3">
+          <h5>Де нас знайти</h5>
+          <ul>
+            <li>вул.Діденко Василя, буд.1</li>
+            <li>61039</li>
+            <li>Харків</li>
+            <li>Україна</li>
+            <li>din721317@gmail.com</li>
+            <li>+380 996 576 141</li>          
+        </ul>
+        </div>
+        <div class="col-3">
+          <ul class="social-icons">
+            <li>
+              <a href=""><img src="./images/Instagram.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./images/facebook.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./images/telegram.svg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h5>Знайди настрій</h5>
+          <ul>
+            <li>Латексні кульки</li>
+            <li>Перламутрові кульки</li>
+            <li>Фольговані кульки</li>
+            <li>Композиції з кульок</li>
+            <li>Вінілові кульки</li>
+            <li>Кульки з наповненням</li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h5>Про нас</h5>
+          <ul>
+            <li>Гарантуємо:</li>
+            <li>гарний настрй</li>
+            <li>позитивні емоції</li>
+            <li>приємні спогади</li>
+            <li>незабутні враження</li>
+            <li>радість та щастя</li>            
+          </ul>
+
+          <p style="text-align: right; font-weight: 600">&#128159;&copy;D.I.N.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./slider.js"></script>
+  </body>
+</html>
