@@ -343,7 +343,7 @@ header .button .logo-img {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  border: 2px solid var(--primary);
+  border: 2px solid var(--accent);
   width: 350px;
   height: 400px;
   align-items: center;
